@@ -3,16 +3,17 @@ body{
 	font-family: 'Roboto Condensed', sans-serif;
 	background: #fff;
 }
-@media (min-width: 500px) {
+/* Smartphones (portrait) ----------- */
+@media (min-width: 320px) {
         p {
           
-          font-size: 0.8em;
+          font-size: 1em;
         }
         ul li{
-            font-size: 0.8em;
+            font-size: 1em;
         }
         tr td{
-            font-size: 0.8em;
+            font-size: 1em;
         }
         .title{
             font-size: 2em;
@@ -24,7 +25,7 @@ body{
             font-size: 1.2em !important;
         }
       }
-
+/* Tablet (portrait) ----------- */
       @media (min-width: 768px) {
         p {
           
@@ -46,7 +47,8 @@ body{
             font-size: 3.0em;
         }
       }
-      @media (min-width: 1200px) {
+/* Desktops and laptops ----------- */
+      @media (min-width: 1224px) {
        p {
           
           font-size: 1.2em;
@@ -65,6 +67,29 @@ body{
         }
         .title{
             font-size: 3.8em;
+        }
+      }
+/* Large screens ----------- */
+
+      @media (min-width: 1824px) {
+       p {
+          
+          font-size: 1.5em;
+        }
+        ul li{
+            font-size: 1.5em;
+        }
+        tr td{
+            font-size: 1.5em;
+        }
+        h2{
+            font-size: 3.2em !important;
+        }
+        h4{
+            font-size: 2.2em !important;
+        }
+        .title{
+            font-size: 4.2em;
         }
       }
 .banner {
